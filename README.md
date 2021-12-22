@@ -39,6 +39,6 @@ Length, lowercase, UPPERCASE, numbers, special characters
 
 ## Links
 
-[Live Website]()  
+[Live Website](https://hongnodie.github.io/HW3-Random-password-Generator/)  
 
-[My Github Account]()
+[My Github Account](https://github.com/Hongnodie)
