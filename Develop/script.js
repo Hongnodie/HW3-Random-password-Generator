@@ -56,5 +56,10 @@ function generatePassword(){
     var randomnumber = passwordPool[Math.floor(Math.random()*passwordPool.length)];
     passwordArray = passwordArray.concat(randomnumber);
   }
-// Creation of password array by Math.random
+  // Creation of password array by Math.random
+
+  var password = passwordArray.join('');
+  // Characters of password array are combined into a single string
+  return password;
+  
 }
