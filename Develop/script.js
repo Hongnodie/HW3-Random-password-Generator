@@ -36,4 +36,13 @@ function generatePassword(){
   // repeatedly ask until valid character length has been justified
   // conditions included: length, refuse prompt, string, special characters
 
+  do {
+    window.alert("Please customize your password (choose one of them for the very least) or repeat");
+    lowercase = window.confirm("Do you want to include lowercase characters?");
+    uppercase = window.confirm("Do you want to include UPPERCASE characters?");
+    numeric = window.confirm("Do you want to include numeric (0-9) characters?");
+    special = window.confirm("Do you want to include special characters (e.g. @)?");
+  } while (lowercase === false && uppercase === false && numeric === false && special === false);
+  // Input preference of password by selection
+  // At least one option is activated
 }
