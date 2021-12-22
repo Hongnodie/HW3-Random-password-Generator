@@ -45,4 +45,10 @@ function generatePassword(){
   } while (lowercase === false && uppercase === false && numeric === false && special === false);
   // Input preference of password by selection
   // At least one option is activated
+
+  if (lowercase) {passwordPool=passwordPool.concat(lowercaseArray)};
+  if (uppercase) {passwordPool=passwordPool.concat(uppercaseArray)};
+  if (numeric) {passwordPool=passwordPool.concat(numericArray)};
+  if (special) {passwordPool=passwordPool.concat(specialArray)};
+  // Creation of password pool that has all preferred characters included (inclusion of all preferred options in a single pool)
 }
