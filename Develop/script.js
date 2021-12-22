@@ -51,4 +51,10 @@ function generatePassword(){
   if (numeric) {passwordPool=passwordPool.concat(numericArray)};
   if (special) {passwordPool=passwordPool.concat(specialArray)};
   // Creation of password pool that has all preferred characters included (inclusion of all preferred options in a single pool)
+
+  for (var i = 0; i < passwordLength; i++) {
+    var randomnumber = passwordPool[Math.floor(Math.random()*passwordPool.length)];
+    passwordArray = passwordArray.concat(randomnumber);
+  }
+// Creation of password array by Math.random
 }
