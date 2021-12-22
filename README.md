@@ -32,14 +32,13 @@ Length, lowercase, UPPERCASE, numbers, special characters
 [list of password special characters](https://www.owasp.org/index.php/Password_special_characters)
 
 
-
 ## Screenshot
 
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/Screenshot.png)
 
 ## Links
 
-[Open Password Generator](./Develop/index.html) 
+[Open Password Generator Code](./Develop/index.html) 
 
 [Live Website](https://hongnodie.github.io/HW3-Random-password-Generator/)  
 
