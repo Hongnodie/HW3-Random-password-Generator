@@ -38,8 +38,8 @@ Length, lowercase, UPPERCASE, numbers, special characters
 
 ## Links
 
-[Open Password Generator Code](./Develop/index.html) 
+[Open Password Generator Code](https://github.com/Hongnodie/HW3-Random-password-Generator.git) 
 
-[Live Website](https://hongnodie.github.io/HW3-Random-password-Generator/)  
+[Live Website](https://hongnodie.github.io/HW3-Random-password-Generator/Develop/index.html)  
 
 [My Github Account](https://github.com/Hongnodie)
