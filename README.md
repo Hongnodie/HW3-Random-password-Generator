@@ -43,3 +43,7 @@ Length, lowercase, UPPERCASE, numbers, special characters
 [Live Website](https://hongnodie.github.io/HW3-Random-password-Generator/Develop/index.html)  
 
 [My Github Account](https://github.com/Hongnodie)
+
+## License
+
+Licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
